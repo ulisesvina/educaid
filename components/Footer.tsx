@@ -23,7 +23,7 @@ const Footer: FC = () => {
             </Link>
           </li>
           <li className="lg:inline-block">
-            <Link href="/login">
+            <Link href="/api/auth/login">
               <span className="mr-4 hover:underline md:mr-6">Login</span>
             </Link>
           </li>
@@ -34,7 +34,7 @@ const Footer: FC = () => {
         <ul className="mt-2">
           <li className="inline-block p-2">
             <a
-              href="https://github.com/ulisesvina"
+              href="https://github.com/ulisesvina/educaid"
               target="_blank"
               rel="noreferrer noopener"
             >

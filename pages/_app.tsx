@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import { UserProvider } from "@auth0/nextjs-auth0/client";
 import { Inter } from "@next/font/google";
 
 import Header from "../components/Header";
@@ -15,13 +16,15 @@ const App = ({ Component, pageProps }: AppProps) => {
           font-family: ${inter.style.fontFamily}, sans-serif;
         }
       `}</style>
-      <div className="flex flex-col h-screen justify-between">
-        <Header />
-        <div className="max-w-4xl m-auto">
-          <Component {...pageProps} />
+      <UserProvider>
+        <div className="flex flex-col h-screen justify-between">
+          <Header />
+          <div className="max-w-screen-xl my-0 mx-auto py-0 px-4">
+            <Component {...pageProps} />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </UserProvider>
     </>
   );
 };
