@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 import { Inter } from "@next/font/google";
+import Head from "next/head";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -16,10 +17,13 @@ const App = ({ Component, pageProps }: AppProps) => {
           font-family: ${inter.style.fontFamily}, sans-serif;
         }
       `}</style>
+      <Head>
+        <title>Educaid</title>
+      </Head>
       <UserProvider>
         <div className="flex flex-col h-screen justify-between">
           <Header />
-          <div className="max-w-screen-xl my-0 mx-auto py-0 px-4">
+          <div className="max-w-5xl w-full h-full my-0 mx-auto py-0 px-4">
             <Component {...pageProps} />
           </div>
           <Footer />
