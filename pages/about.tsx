@@ -13,7 +13,7 @@ const About: FC = () => {
             disorders that can significantly impact their academic performance.
             In developing countries, where access to specialized care is often
             limited due to economic constraints, this can be particularly
-            challenging for families. That's where Educaid comes in.
+            challenging for families. That&apos;s where Educaid comes in.
           </p>
         </div>
       </section>
@@ -25,11 +25,11 @@ const About: FC = () => {
             Educaid is a revolutionary app that helps children with mental
             disorders improve their academic performance. One of the key
             features of Educaid is its ability to make a preliminary diagnosis
-            of many mental disorders that can affect academic performance. It's
+            of many mental disorders that can affect academic performance. It&apos;s
             important to note that this diagnosis is not a definitive diagnosis,
             and it is not a replacement for a professional evaluation. However,
             it can provide valuable insights and help families and educators
-            identify potential issues that may be impacting a child's academic
+            identify potential issues that may be impacting a child&apos;s academic
             performance.
           </p>
           <p className="mt-2">
@@ -37,7 +37,7 @@ const About: FC = () => {
             personalized academic support and resources for students, parents,
             and schools. This includes personalized learning plans, interactive
             games, and resources for parents and teachers to help support the
-            child's academic journey. By offering this comprehensive support,
+            child&apos;s academic journey. By offering this comprehensive support,
             Educaid aims to give children with mental disorders the best chance
             of success in school.
           </p>
