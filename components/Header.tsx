@@ -60,7 +60,7 @@ const Header: FC = () => {
                 <button
                   data-dropdown-toggle="dropdownDivider"
                   type="button"
-                  onClick={collapseDropdown}
+                  onMouseOver={collapseDropdown}
                   className="block mt-4 lg:inline mr-4 lg:mt-0"
                 >
                   <span className="mr-2">
