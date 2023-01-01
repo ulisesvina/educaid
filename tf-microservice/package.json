@@ -1,0 +1,15 @@
+{
+  "name": "tf-microservice",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "description": "Microservice for Educaid",
+  "main": "src/main.js",
+  "author": "Ulises Viña",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

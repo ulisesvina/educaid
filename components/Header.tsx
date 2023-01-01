@@ -63,7 +63,7 @@ const Header: FC = () => {
                   onMouseOver={collapseDropdown}
                   className="block mt-4 lg:inline mr-4 lg:mt-0"
                 >
-                  <img src={user.picture as string} className="inline rounded mr-2" alt="Profile picture" width={20} height={20}/>
+                  <Image src={user.picture as string} className="inline rounded mr-2" alt="Profile picture" width={20} height={20}/>
                   <span className="mr-2">
                     <b>{user.name}</b>
                   </span>
