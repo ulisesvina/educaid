@@ -1,14 +1,18 @@
-import { User, PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const User = {
-  async create(data: User) {
-    return await prisma.user.create({
-      data,
+  async create(data: any) {
+    return await prisma.user.upsert({
+      where: {
+        email: data.email,
+      },
+      update: {},
+      create: data,
     });
   },
-  async update(email: string, data: User) {
+  async update(email: string, data: any) {
     return await prisma.user.update({
       where: {
         email,

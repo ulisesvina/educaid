@@ -14,3 +14,17 @@ model User {
   interest  String   @default("")
   createdAt DateTime @default(now())
 }
+
+model Quiz {
+  id        String     @id @default(uuid())
+  type      Int
+  questions Question[]
+}
+
+model Question {
+  id       String   @id @default(uuid())
+  type     Int
+  question String
+  quizId   String
+  quiz     Quiz     @relation(fields: [quizId], references: [id])
+}

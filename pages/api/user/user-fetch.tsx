@@ -1,21 +1,15 @@
 import type { NextApiRequest, NextApiResponse } from "next";
+import { User as UserType } from "@prisma/client";
 import User from "../../../controllers/user";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
-  if (req.method !== "POST")
+  if (req.method !== "GET")
     return res.status(405).end({
       error: "Method not allowed",
     });
   try {
-    const username: string = req.body.username,
-      email: string = req.body.email;
-
-    await User.create({
-      username,
-      email,
-    });
-
-    res.status(200).json({ message: "Success" });
+    const user: UserType | null = await User.get(req.query.email as string);
+    res.status(200).json({ user });
   } catch (error) {
     res.status(500).json({ error });
   }
