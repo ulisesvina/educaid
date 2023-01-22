@@ -3,6 +3,7 @@ import Head from "next/head";
 3;
 import { Inter } from "@next/font/google";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
+import InfoProvider from "@/context/InfoProvider";
 
 import Header from "@/components/Header";
 
@@ -17,17 +18,17 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-        <title>
-          Educaid
-        </title>
-        <link rel="icon" href="/Educaid.png" type="image/png"/>
+        <title>Educaid</title>
+        <link rel="icon" href="/Educaid.png" type="image/png" />
       </Head>
       <div className="flex flex-col">
         <UserProvider>
-          <Header />
-          <div className="flex-1 my-10">
-            <Component {...pageProps} />
-          </div>
+          <InfoProvider>
+            <Header />
+            <div className="flex-1 my-10">
+              <Component {...pageProps} />
+            </div>
+          </InfoProvider>
         </UserProvider>
       </div>
     </div>
