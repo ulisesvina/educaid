@@ -21,6 +21,7 @@ const Dashboard = () => {
                 information about a professional diagnosis{" "}
                 <a
                   href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-problems-introduction/diagnosis/"
+		rel="noreferrer"
                   target="_blank"
                   className="text-blue-300 underline"
                 >
