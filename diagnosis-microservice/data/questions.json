@@ -1,0 +1,82 @@
+{
+    "questions": [
+        {
+            "question": "Do you consider you have had any problems developing affective and social ties or interacting with other people?"
+        },
+        {
+            "question": "How difficult is it for you to identify the emotions of the people around you?"
+        },
+        {
+            "question": "How difficult is it for you to maintain eye contact with other people?"
+        },
+        {
+            "question": "How much do you like receiving physical contact?"
+        },
+        {
+            "question": "Is it common for you to have any sort of fixation because things are kept in a certain order?"
+        },
+        {
+            "question": "How afraid are you of change or that things will not stay the same?"
+        },
+        {
+            "question": "How common is it for you to keep your interests rigid and without much change?"
+        },
+        {
+            "question": "How sensitive are you to noises that are too loud?"
+        },
+        {
+            "question": "How sensitive are you to certain smells?"
+        },
+        {
+            "question": "How sensitive are you to certain textures?"
+        },
+        {
+            "question": "Do you often have difficulty concentrating on daily activities such as study or conversations?"
+        },
+        {
+            "question": "How difficult is it for you to pay attention to details for long periods of time or are you easily distracted?"
+        },
+        {
+            "question": "Do you often like keeping your things in order?"
+        },
+        {
+            "question": "How often do you forget things?"
+        },
+        {
+            "question": "How long can you keep yourself still without being uncomfortable or needy to move?"
+        },
+        {
+            "question": "How common is it for you to interrupt other people?"
+        },
+        {
+            "question": "How patient are you when waiting your turn in long lines?"
+        },
+        {
+            "question": "How difficult is it for you to read long texts without getting stuck or having to repeat them for understanding?"
+        },
+        {
+            "question": "How often do you make spelling mistakes?"
+        },
+        {
+            "question": "How difficult is it for you to express your ideas?"
+        },
+        {
+            "question": "How frequently do you require a calculator to perform simple math (sums, substractions)?"
+        },
+        {
+            "question": "Can you see or feel things that others don't?"
+        },
+        {
+            "question": "How hard is it for you to stay focused on conversations constantly?"
+        },
+        {
+            "question": "How often have you felt like you're living in another reality?"
+        },
+        {
+            "question": "How difficult is it for you to express yourself compared to others?"
+        },
+        {
+            "question": "How often do you think people is trying to hurt you on purpose?"
+        }
+    ]
+}
